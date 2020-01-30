@@ -1,8 +1,11 @@
 # test-vuetify-tooltip
 
-> My dandy Nuxt.js project
+Repo to reveal a bug
 
-## Build Setup
+## How to use
+1. Clone this repository
+2. Change directory to it
+3. Run the following steps:
 
 ``` bash
 # install dependencies
@@ -10,13 +13,10 @@ $ yarn install
 
 # serve with hot reload at localhost:3000
 $ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## How to run tests
+Type:
+```bash
+yarn test path_to_file_to_test
+```
